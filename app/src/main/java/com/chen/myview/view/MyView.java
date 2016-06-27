@@ -64,6 +64,7 @@ public class MyView extends View {
         paint.setColor(Color.GREEN);
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(2);
+
         canvas.drawPath(mPath, paint);
 
     }
